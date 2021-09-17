@@ -29,18 +29,6 @@ public class BinarySearch {
 					}
 					break;
 				}
-//				if (leftEl + 1 == rightEl) {
-//					if (arrayN[leftEl] == num) {
-//						ind = leftEl;
-//					} else {
-//						if (arrayN[rightEl] == num) {
-//							ind = rightEl;
-//						} else {
-//							ind = -2;
-//						}
-//					}
-//					break;
-//				}
 				int index = (leftEl + (rightEl - leftEl) / 2) ;
 				if (arrayN[index] == num) {
 					ind = index;
@@ -60,5 +48,4 @@ public class BinarySearch {
 		System.out.println(sb.toString());
 		scanner.close();		
 	}
-
 }
